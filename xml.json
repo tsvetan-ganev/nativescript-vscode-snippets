@@ -7,9 +7,9 @@
             "    <ActionBar title=\"Title\" icon=\"\">",
             "        <NavigationButton text=\"Back\" icon=\"\" tap=\"\" />",
             "        <ActionBar.actionItems>",
-            "            <ActionItem icon=\"\" text=\"\" tap=\"\" iosPosition=\"left\" />",
-            "            <ActionItem icon=\"\" text=\"\" tap=\"\" iosPosition=\"center\" />",
-            "            <ActionItem icon=\"\" text=\"\" tap=\"\" iosPosition=\"right\" />",
+            "            <ActionItem icon=\"\" text=\"Left\" tap=\"\" iosPosition=\"left\" />",
+            "            <ActionItem icon=\"\" text=\"Center\" tap=\"\" iosPosition=\"center\" />",
+            "            <ActionItem icon=\"\" text=\"Right\" tap=\"\" iosPosition=\"right\" />",
             "        </ActionBar.actionItems>",
             "    </ActionBar>",
             "</Page.actionBar>"
@@ -217,7 +217,7 @@
     "{N} List View": {
         "prefix": "nslistview",
         "body": [
-            "<ListView items=\"{{ source }}\"  loaded=\"onListLoaded\" itemLoading=\"listItemLoading\" itemTap=\"{{ onItemTap }}\">",
+            "<ListView items=\"{{ source }}\"  loaded=\"onLoaded\" itemLoading=\"onItemLoading\" itemTap=\"onItemTap\">",
             "    <ListView.itemTemplate>",
             "        $1",
             "    </ListView.itemTemplate>",
@@ -269,7 +269,7 @@
     "{N} Page": {
         "prefix": "nspage",
         "body": [
-            "<Page xmlns=\"http://www.nativescript.org/tns.xsd\">",
+            "<Page xmlns=\"http://www.nativescript.org/tns.xsd\" loaded=\"onLoaded\" navigatedTo=\"onNavigatedTo\">",
             "    $1",
             "</Page>"
         ]
@@ -399,6 +399,18 @@
         "prefix": "css",
         "body": "cssClass=\"$1\"$2"
     },
+    "{N} Text Attribute": {
+        "prefix": "text",
+        "body": "text=\"$1\"$2"
+    },
+    "{N} Icon Attribute": {
+        "prefix": "icon",
+        "body": "icon=\"res://$1\"$2"
+    },
+    "{N} Tap Attribute": {
+        "prefix": "tap",
+        "body": "tap=\"$1\"$2"
+    },
 	"{N} Text Wrap Attribute": {
         "prefix": "wrap",
         "body": "textWrap=\"true\"$2"
@@ -414,6 +426,14 @@
     "{N} Visibility Attribute": {
         "prefix": "visibility",
         "body": "visibility=\"{{ isItemVisible ? 'visible' : 'collapsed' }}\"$2"
+    },
+    "{N} Stretch Attribute": {
+        "prefix": "stretch",
+        "body": "stretch=\"fill$1\"$2"
+    },
+    "{N} Keyboard Type Attribute": {
+        "prefix": "kbtype",
+        "body": "keyboardType=\"email$1\"$2"
     },
     "{N} Row Attribute": {
         "prefix": "row",
