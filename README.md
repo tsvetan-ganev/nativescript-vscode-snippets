@@ -1,5 +1,7 @@
 ## NativeScript XML Snippets for Visual Studio Code ##
 
+![](screenshot.gif)
+
 This JSON file contains snippets for all NativeScript UI components and some frequently used attributes.
 
 All UI components are prefixed with ```ns```. Attributes do not have a prefix.
@@ -23,6 +25,7 @@ All UI components are prefixed with ```ns```. Attributes do not have a prefix.
 - Image - ```nsimg```
 - Border - ```nsborder```
 - Button - ```nsbtn```
+- Search Bar - ```nssearchbar```
 - Switch - ```nsswitch```
 - Slider - ```nsslider```
 - Progress - ```nsprogress```

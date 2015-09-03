@@ -323,6 +323,13 @@
             "$2"
         ]
     },
+    "{N} SearchBar": {
+        "prefix": "nssearchbar",
+        "body": [
+            "<SearchBar id=\"${1:searchBar}\" hint=\"${2:Search}\" text=\"$3\" clear=\"${4:onClear}\" submit=\"${5:onSubmit}\" />",
+            "$6"
+        ]
+    },
     "{N} Switch": {
         "prefix": "nsswitch",
         "body": [
