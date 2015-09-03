@@ -25,6 +25,7 @@ All UI components are prefixed with ```ns```. Attributes do not have a prefix.
 - Image - ```nsimg```
 - Border - ```nsborder```
 - Button - ```nsbtn```
+- SearchBar - ```nssearchbar```
 - Switch - ```nsswitch```
 - Slider - ```nsslider```
 - Progress - ```nsprogress```
