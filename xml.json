@@ -7,9 +7,8 @@
             "    <ActionBar title=\"Title\" icon=\"\">",
             "        <NavigationButton text=\"Back\" icon=\"\" tap=\"\" />",
             "        <ActionBar.actionItems>",
-            "            <ActionItem icon=\"\" text=\"Left\" tap=\"\" iosPosition=\"left\" />",
-            "            <ActionItem icon=\"\" text=\"Center\" tap=\"\" iosPosition=\"center\" />",
-            "            <ActionItem icon=\"\" text=\"Right\" tap=\"\" iosPosition=\"right\" />",
+            "            <ActionItem icon=\"\" text=\"Left\" tap=\"\" ios.position=\"left\" />",
+            "            <ActionItem icon=\"\" text=\"Right\" tap=\"\" ios.position=\"right\" />",
             "        </ActionBar.actionItems>",
             "    </ActionBar>",
             "</Page.actionBar>"
