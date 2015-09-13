@@ -67,7 +67,7 @@ All UI components are prefixed with ```ns```. Attributes do not have a prefix.
 
    For Linux/Mac:
    ```bash
-   path\to\Code\User\snippets
+   path/to/Code/User/snippets
    ```
 
 2. Replace the ```xml.json``` file with this one or in case you already have other XML snippets,
