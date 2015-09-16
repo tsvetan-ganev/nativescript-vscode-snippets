@@ -383,9 +383,9 @@
         "body": [
             "<SegmentedBar selectedIndex=\"{{ selectedIndex }}\">",
             "    <SegmentedBar.items>",
-            "        <SegmentedBarEntry title=\"First\">",
-            "        <SegmentedBarEntry title=\"Second\">",
-            "        <SegmentedBarEntry title=\"Third\">",
+            "        <SegmentedBarItem title=\"First\" />",
+            "        <SegmentedBarItem title=\"Second\" />",
+            "        <SegmentedBarItem title=\"Third\" />",
             "        $1",
             "    </SegmentedBar.items>",
             "</SegmentedBar>"
