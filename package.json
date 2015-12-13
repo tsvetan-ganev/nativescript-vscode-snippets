@@ -1,0 +1,42 @@
+{
+    "name": "nativescript-xml-snippets",
+    "displayName": "NativeScript XML Snippets",
+    "description": "XML snippets for Telerik's NativeScript cross-platform mobile applications development framework.",
+    "version": "1.0.3",
+    "publisher": "tsvetan-ganev",
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#0c121c",
+        "theme": "dark"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tsvetan-ganev/nativescript-vscode-snippets/issues",
+        "email": "tsvetan.ganev@hotmail.com"
+    },
+    "homepage": "https://github.com/tsvetan-ganev/nativescript-vscode-snippets/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tsvetan-ganev/nativescript-vscode-snippets.git"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "nativescript",
+        "telerik",
+        "ns",
+        "snippets",
+        "xml",
+        "mobile"
+    ],
+     "contributes": {
+        "snippets": [
+            {
+                "language": "xml",
+                "path": "./snippets/xml.json"
+            }
+        ]
+     },
+    "engines":  { "vscode": "0.10.x" }
+}
