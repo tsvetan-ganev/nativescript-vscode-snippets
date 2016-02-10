@@ -58,17 +58,13 @@ All UI components are prefixed with ```ns```. Attributes do not have a prefix.
 
 ## How to use? ##
 
-1. Navigate to the following folder.
-
-   For Windows:
+1. Inside Visual Studio Code press
    ```bash
-   %APPDATA%\Code\User\snippets
+   CTRL + P
    ```
-
-   For Linux/Mac:
-   ```bash
-   path/to/Code/User/snippets
-   ```
-
-2. Replace the ```xml.json``` file with this one or in case you already have other XML snippets,
-append the contents of my file to yours.
+   
+2. Type the following in the console window
+  ``` bash
+  ext install nativescript-xml-snippets
+  ```
+3. Hit enter.
