@@ -35,6 +35,10 @@
             {
                 "language": "xml",
                 "path": "./snippets/xml.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/xml.json"
             }
         ]
      },
