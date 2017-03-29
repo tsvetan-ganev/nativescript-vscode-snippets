@@ -6,7 +6,7 @@ This JSON file contains snippets for all NativeScript UI components and some fre
 
 All UI components are prefixed with ```ns```. Attributes do not have a prefix.
 
-###UI Components
+### UI Components
 
 #### Layouts
 - Absolute Layout - ```nsabsolute```
@@ -59,12 +59,15 @@ All UI components are prefixed with ```ns```. Attributes do not have a prefix.
 ## How to use? ##
 
 1. Inside Visual Studio Code press
-   ```bash
-   CTRL + P
-   ```
-   
+
+  ```bash
+  CTRL + P
+  ```
+
 2. Type the following in the console window
+
   ``` bash
   ext install nativescript-xml-snippets
   ```
+
 3. Hit enter.
