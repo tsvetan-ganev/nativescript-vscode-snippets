@@ -402,8 +402,8 @@
 
     // Attributes
     "{N} CSS Class Attribute": {
-        "prefix": "css",
-        "body": "css=\"$1\"$2"
+        "prefix": "class",
+        "body": "class=\"$1\"$2"
     },
     "{N} Text Attribute": {
         "prefix": "text",
