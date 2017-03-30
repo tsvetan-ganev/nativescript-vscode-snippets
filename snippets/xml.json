@@ -276,7 +276,7 @@
     "{N} Image": {
         "prefix": "nsimg",
         "body": [
-            "<Image src=\"$1\" stretch =\"none\" />",
+            "<Image src=\"$1\" stretch=\"none\" />",
             "$2"
         ]
     },
@@ -402,8 +402,8 @@
 
     // Attributes
     "{N} CSS Class Attribute": {
-        "prefix": "css",
-        "body": "cssClass=\"$1\"$2"
+        "prefix": "class",
+        "body": "class=\"$1\"$2"
     },
     "{N} Text Attribute": {
         "prefix": "text",
