@@ -1,4 +1,4 @@
-## NativeScript XML Snippets for Visual Studio Code ##
+# NativeScript XML Snippets for Visual Studio Code
 
 ![](screenshot.gif)
 
@@ -6,9 +6,9 @@ This JSON file contains snippets for all NativeScript UI components and some fre
 
 All UI components are prefixed with ```ns```. Attributes do not have a prefix.
 
-###UI Components
+## UI Components
 
-#### Layouts
+### Layouts
 - Absolute Layout - ```nsabsolute```
 - Dock Layout - ```nsdock```
 - Grid Layout - ```nsgrid```
@@ -38,7 +38,7 @@ All UI components are prefixed with ```ns```. Attributes do not have a prefix.
 - List View - ```nslistview```
 - Web View - ```nswebview```
 
-###Attributes
+### Attributes
 - cssClass - ```css```
 - text - ```text```
 - icon - ```icon```
@@ -56,15 +56,18 @@ All UI components are prefixed with ```ns```. Attributes do not have a prefix.
 - width - ```width```
 - height - ```height```
 
-## How to use? ##
+## How to use?
 
 1. Inside Visual Studio Code press
-   ```bash
-   CTRL + P
-   ```
-   
+
+  ```bash
+  CTRL + P
+  ```
+
 2. Type the following in the console window
+
   ``` bash
   ext install nativescript-xml-snippets
   ```
+
 3. Hit enter.
