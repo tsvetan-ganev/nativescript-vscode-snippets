@@ -2,7 +2,7 @@
     "name": "nativescript-xml-snippets",
     "displayName": "NativeScript XML Snippets",
     "description": "XML snippets for Telerik's NativeScript cross-platform mobile applications development framework.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "publisher": "tsvetan-ganev",
     "icon": "images/icon.png",
     "galleryBanner": {
