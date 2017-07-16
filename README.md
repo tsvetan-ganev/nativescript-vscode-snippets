@@ -1,6 +1,6 @@
 # NativeScript XML Snippets for Visual Studio Code
 
-![](screenshot.gif)
+![Screenshot](images/screenshot.gif)
 
 This JSON file contains snippets for all NativeScript UI components and some frequently used attributes.
 
