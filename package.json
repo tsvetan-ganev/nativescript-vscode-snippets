@@ -36,6 +36,10 @@
                 "path": "./snippets/xml.json"
             },
             {
+                "language": "html",
+                "path": "./snippets/xml.json"
+            },
+            {
                 "language": "typescript",
                 "path": "./snippets/xml.json"
             },
