@@ -2,7 +2,7 @@
     "name": "nativescript-xml-snippets",
     "displayName": "NativeScript XML Snippets",
     "description": "XML snippets for Telerik's NativeScript cross-platform mobile applications development framework.",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "publisher": "tsvetan-ganev",
     "icon": "images/icon.png",
     "galleryBanner": {
@@ -25,10 +25,9 @@
     "keywords": [
         "nativescript",
         "telerik",
-        "ns",
         "snippets",
-        "xml",
-        "mobile"
+        "vue",
+        "angular"
     ],
      "contributes": {
         "snippets": [
@@ -42,6 +41,10 @@
             },
             {
                 "language": "vue-html",
+                "path": "./snippets/xml.json"
+            },
+            {
+                "language": "html",
                 "path": "./snippets/xml.json"
             }
         ]
