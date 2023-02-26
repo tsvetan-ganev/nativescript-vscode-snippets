@@ -268,7 +268,7 @@
     "{N} Page": {
         "prefix": "nspage",
         "body": [
-            "<Page xmlns=\"http://www.nativescript.org/tns.xsd\" loaded=\"onLoaded\" navigatedTo=\"onNavigatedTo\">",
+            "<Page xmlns=\"http://schemas.nativescript.org/tns.xsd\" loaded=\"onLoaded\" navigatedTo=\"onNavigatedTo\">",
             "    $1",
             "</Page>"
         ]
